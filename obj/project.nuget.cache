@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VrNJpHWEG0D09JKuvHLdQEpFFOvvz33rXkNel3x+PCfuR9/u6BBqwgTGOg/fr9hojbRGv4yiKfX+6sxrZvqC3w==",
+  "dgSpecHash": "SoS53JcTThPEAvesn+SvKauwTrCKhCxipuijfer7UkV3LmQ9fjKnIYdURJj13X19Zohd2moXP5b3miv0fg3NVA==",
   "success": true,
   "projectFilePath": "/Users/andnic/Documents/VSCode/DevOpsTest/SimpleServer.csproj",
-  "expectedPackageFiles": [
-    "/Users/andnic/.nuget/packages/microsoft.netcore.app.runtime.linux-arm/6.0.0/microsoft.netcore.app.runtime.linux-arm.6.0.0.nupkg.sha512",
-    "/Users/andnic/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-arm/6.0.0/microsoft.aspnetcore.app.runtime.linux-arm.6.0.0.nupkg.sha512",
-    "/Users/andnic/.nuget/packages/microsoft.netcore.app.host.linux-arm/6.0.0/microsoft.netcore.app.host.linux-arm.6.0.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
