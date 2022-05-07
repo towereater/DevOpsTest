@@ -1,7 +1,8 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {},
+    "net6.0/linux-arm": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
@@ -13,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/andnic/Documents/VSCode/DevOpsTest/SimpleServer/SimpleServer.csproj",
+      "projectUniqueName": "/Users/andnic/Documents/VSCode/DevOpsTest/SimpleServer.csproj",
       "projectName": "SimpleServer",
-      "projectPath": "/Users/andnic/Documents/VSCode/DevOpsTest/SimpleServer/SimpleServer.csproj",
+      "projectPath": "/Users/andnic/Documents/VSCode/DevOpsTest/SimpleServer.csproj",
       "packagesPath": "/Users/andnic/.nuget/packages/",
-      "outputPath": "/Users/andnic/Documents/VSCode/DevOpsTest/SimpleServer/obj/",
+      "outputPath": "/Users/andnic/Documents/VSCode/DevOpsTest/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/andnic/.nuget/NuGet/NuGet.Config"
@@ -53,6 +54,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.linux-arm",
+            "version": "[6.0.0, 6.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-arm",
+            "version": "[6.0.0, 6.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.linux-arm",
+            "version": "[6.0.0, 6.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -62,6 +77,11 @@
           }
         },
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "linux-arm": {
+        "#import": []
       }
     }
   }
